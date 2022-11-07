@@ -1,13 +1,17 @@
 package com.nttdata.bootcamp.mspersontype.model;
 
+import org.springframework.data.annotation.Id;
+import javax.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-import org.springframework.data.annotation.Id;
-import javax.validation.constraints.NotNull;
 
+/**
+ * Class PersonType.
+ * PersonType microservice class PersonType.
+ */
 @Data
 @Builder
 @ToString
